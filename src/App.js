@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Movie from "./higherOrder/tech";
+import MovieReview from "./PureComp/techField";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="container">
+      <div className="tech">
+        <h1>HOC</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          LoremLe Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux
+           texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Movie id={1} />
+      </div>
+      <div className="Para1">
+        <h1>Pure Component </h1>
+        <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie 
+          depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser</p>
+        <MovieReview />
+      </div>
     </div>
   );
 }

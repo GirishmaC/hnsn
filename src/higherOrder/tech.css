@@ -1,0 +1,12 @@
+.technology {
+    padding: 5px;
+    border: dotted;
+    color: black;
+    font-size: 5px;
+  }
+  
+  .box {
+    color: purple;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
